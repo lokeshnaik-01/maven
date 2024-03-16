@@ -4,9 +4,9 @@
 - archetype is a model on how a project needs to be structured 
 - if we choose a number maven will create all the dependencies and all the jar
 - after this is run maven will create a new folder named as the same as ArtifactId
-- `mvn compile` will compile the file in the application directory
-- `mvn package` will package it into a jar file in the target folder
-- to execute the jar file we need to use `java -cp <jar_filepath> groupId className` className having main method
+- `mvn compile` will compile the file in the application directory, all the classes inside `src/main` folder are compiled
+- `mvn package` will package it into a jar file in the target folder and also test cases are ran
+- to execute the jar file we need to use `java -cp <jar_filepath> groupId.className` className having main method
 
 # Maven Structure
 - it has two infos Archetype and dependency info
