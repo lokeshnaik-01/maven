@@ -1,0 +1,3 @@
+- as this is a web application in the pom file packaging is set to war
+- we also have jsp and servlets
+- 
