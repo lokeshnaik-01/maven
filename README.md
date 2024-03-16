@@ -29,6 +29,8 @@
 - gives version
 ## package
 - what package the class should belong to
+## Scope
+- if no scope is provided the dependency is used during compile phase
 
 ## Maven Build
 - it has a build lifecycle
