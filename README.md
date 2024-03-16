@@ -29,3 +29,17 @@
 - gives version
 ## package
 - what package the class should belong to
+
+## Maven Build
+- it has a build lifecycle
+- it is split into different phases like compile, test, package etc
+- Phases have default behaviour like in test only test cases are executed
+- specify the build phase you need. Previous phases automatically run
+
+## Maven build phases
+- validate (checks if everything is on order)
+- compile (compiling happens)
+- test (test cases are run)
+- package (packaging of code based on output type specified in pom file output is created)
+- install (once artifacts is generated maven installs it into local maven repo)
+- deploy (only used when we push artifact to remote maven repo)
